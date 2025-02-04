@@ -48,6 +48,11 @@ foreach($data_all as $dt){
     <a href="Controller/siswacontroller.php?aksi=delete&id='.$dt["id"].'" class="btn btn-sm btn-danger">Hapus</a>
 
     <a href="view/siswa/edit.php?id='.$dt["id"].'" class="btn btn-sm btn-warning">Edit</a>
+
+    <a href="view/barcode.php?id='.$dt["id"].'" class="btn btn-sm btn-primary">Barcode</a>
+
+    <a href="view/qrcode.php?id='.$dt["id"].'" class="btn btn-sm btn-info">QRcode</a>
+
     </td>
     </tr>';
     $no++;
